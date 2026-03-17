@@ -1,8 +1,20 @@
 {
   "name": "oda-partnership",
-  "description": "ODA 파트너십 & 협력: 발주처/공여기관별 접근 전략, 현지 파트너 매핑, MOU/MOA 초안, 하도급 범위서, PSC 회의 준비, 수원국 정부 대응. KOICA, ADB, UNESCO 기관 전략 포함.",
   "version": "0.1.0",
+  "description": "ODA 파트너십 & 협력: 발주처/공여기관별 접근 전략, 현지 파트너 매핑, MOU/MOA 초안, 하도급 범위서, PSC 회의 준비, 수원국 정부 대응.",
   "author": {
-    "name": "UBION Overseas Business Division"
-  }
+    "name": "UBION Overseas Business Division",
+    "email": "scott@ubion.co.kr"
+  },
+  "repository": "https://github.com/scottnaddle/oda-skills",
+  "license": "MIT",
+  "keywords": [
+    "oda",
+    "partnership",
+    "donor",
+    "mou",
+    "psc",
+    "government",
+    "subcontract"
+  ]
 }

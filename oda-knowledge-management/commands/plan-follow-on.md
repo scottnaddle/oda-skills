@@ -1,6 +1,6 @@
 ---
-description: 후속사업 개념서와 확산 계획을 작성한다. 후속사업 기획 → 성과확산 계획 체이닝.
-argument-hint: "[현행 사업명, 후속사업 방향(확대/심화/복제)]"
+description: 후속사업 개념서와 확산 계획을 연계하여 작성한다.
+argument-hint: "[현 사업명, 후속사업 방향(심화/확장/발전/연계)]"
 ---
 
 # /plan-follow-on
@@ -10,17 +10,13 @@ argument-hint: "[현행 사업명, 후속사업 방향(확대/심화/복제)]"
 ## 실행 흐름
 
 ### Step 1: 후속사업 개념서 (follow-on-concept)
-현행 사업 성과를 기반으로 후속사업 방향을 기획한다.
-- 후속사업 유형 결정 (확대/심화/복제/전환)
-- 개념서 작성 (목표, 범위, 접근, 예산)
-- 현행 사업과의 연계 논리
+현 사업 성과 기반으로 후속사업의 방향, 전략, 로드맵을 설계한다.
 
-### Step 2: 성과확산 계획 (dissemination-plan)
-현행 사업 성과와 후속사업 기획을 함께 확산한다.
-- 대상별 확산 전략
-- 확산 자료 및 일정
+### Step 2: 확산 계획 (dissemination-plan)
+현 사업 및 후속사업의 성과확산 전략을 수립한다.
 
 ## 완료 후 제안
 
-- 바로 제안서를 쓰려면: → `/draft-proposal` (oda-proposal-writing 플러그인)
-- 발주처에 사전 협의하려면: → donor-strategy 스킬 (oda-partnership 플러그인)
+- 발주처 전략을 세우려면: → `/plan-partnership` (oda-partnership 플러그인)
+- 수원국을 추가 연구하려면: → `/research-country` (oda-country-research 플러그인)
+- 제안서를 작성하려면: → `/draft-proposal` (oda-proposal-writing 플러그인)

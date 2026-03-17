@@ -1,8 +1,20 @@
 {
   "name": "oda-monitoring-evaluation",
-  "description": "ODA 사업 모니터링 & 평가: 성과 프레임워크 설계, 지표 정의, 중간평가, 종료평가, 영향평가, 설문 분석, 데이터 품질 점검. DAC 5대 기준 + KOICA 2대 추가기준 기반.",
   "version": "0.1.0",
+  "description": "ODA 모니터링 & 평가: 성과 프레임워크, SMART 지표 정의, 중간평가, 종료평가, 영향 평가, 설문 분석, 데이터 품질 점검. DAC 5대 기준 + KOICA 추가기준.",
   "author": {
-    "name": "UBION Overseas Business Division"
-  }
+    "name": "UBION Overseas Business Division",
+    "email": "scott@ubion.co.kr"
+  },
+  "repository": "https://github.com/scottnaddle/oda-skills",
+  "license": "MIT",
+  "keywords": [
+    "oda",
+    "monitoring",
+    "evaluation",
+    "indicator",
+    "dac",
+    "impact",
+    "survey"
+  ]
 }

@@ -1,19 +1,77 @@
 {
   "name": "oda-skills",
-  "description": "ODA 사업관리 스킬 마켓플레이스: 수주부터 착수, 실행, 평가, 확산까지 — 해외사업부를 위한 AI 운영 체계",
-  "version": "1.0.0",
-  "author": {
-    "name": "UBION Overseas Business Division"
+  "owner": {
+    "name": "UBION Overseas Business Division",
+    "email": "scott@ubion.co.kr"
   },
-  "license": "MIT",
+  "metadata": {
+    "description": "ODA 사업관리 스킬 마켓플레이스: 수주→제안→실행→평가→확산 — 해외사업부를 위한 AI 운영 체계. 8개 플러그인, 53개 스킬, 30개 커맨드. KOICA/ADB/UNESCO 발주처 대응.",
+    "version": "1.0.0"
+  },
   "plugins": [
-    "oda-bid-intelligence",
-    "oda-proposal-writing",
-    "oda-project-execution",
-    "oda-country-research",
-    "oda-monitoring-evaluation",
-    "oda-partnership",
-    "oda-knowledge-management",
-    "oda-toolkit"
+    {
+      "name": "oda-bid-intelligence",
+      "source": "./oda-bid-intelligence",
+      "version": "0.1.0",
+      "description": "ODA 수주 정보 분석: RFP 분석, 경쟁사 매핑, 컨소시엄 전략, 입찰 자가평가, 조달공고 모니터링, ODA 시장 환경 분석.",
+      "category": "oda-management",
+      "tags": ["oda", "bid", "rfp", "procurement", "koica", "adb"]
+    },
+    {
+      "name": "oda-proposal-writing",
+      "source": "./oda-proposal-writing",
+      "version": "0.1.0",
+      "description": "ODA 제안서 작성: 기술제안서, 로지컬 프레임워크(PDM), 예산서, 워크플랜, 전문가 배치, TOR, 품질 검토.",
+      "category": "oda-management",
+      "tags": ["oda", "proposal", "logframe", "budget", "workplan"]
+    },
+    {
+      "name": "oda-project-execution",
+      "source": "./oda-project-execution",
+      "version": "0.1.0",
+      "description": "ODA 사업 실행 관리: 착수보고, 진도보고, 종료보고, 회의록, 출장보고, 전문가 파견, 조달, 리스크 관리.",
+      "category": "oda-management",
+      "tags": ["oda", "execution", "reporting", "risk", "meeting"]
+    },
+    {
+      "name": "oda-country-research",
+      "source": "./oda-country-research",
+      "version": "0.1.0",
+      "description": "ODA 수원국 연구: 교육 프로파일, 니즈 평가, 이해관계자 매핑, 정책 환경, 디지털 준비도, 기초선 조사. 6개국 프로파일 포함.",
+      "category": "oda-management",
+      "tags": ["oda", "country-research", "needs-assessment", "stakeholder", "digital-readiness"]
+    },
+    {
+      "name": "oda-monitoring-evaluation",
+      "source": "./oda-monitoring-evaluation",
+      "version": "0.1.0",
+      "description": "ODA 모니터링 & 평가: 성과 프레임워크, SMART 지표, 중간/종료 평가, 영향 평가, 설문 분석, 데이터 품질. DAC 기준 기반.",
+      "category": "oda-management",
+      "tags": ["oda", "monitoring", "evaluation", "dac", "impact", "survey"]
+    },
+    {
+      "name": "oda-toolkit",
+      "source": "./oda-toolkit",
+      "version": "0.1.0",
+      "description": "ODA 유틸리티: 문서 번역(한↔영), 출장 관리, 계약 검토, 발표 대본, 업무 이메일, 통역 브리핑, 한영 문법 교정.",
+      "category": "utilities",
+      "tags": ["oda", "translation", "travel", "contract", "email", "proofreading"]
+    },
+    {
+      "name": "oda-partnership",
+      "source": "./oda-partnership",
+      "version": "0.1.0",
+      "description": "ODA 파트너십: 발주처/공여기관 접근 전략, 현지 파트너 매핑, MOU/MOA 초안, 하도급 범위, PSC 회의, 정부 대응.",
+      "category": "oda-management",
+      "tags": ["oda", "partnership", "donor", "mou", "psc", "government"]
+    },
+    {
+      "name": "oda-knowledge-management",
+      "source": "./oda-knowledge-management",
+      "version": "0.1.0",
+      "description": "ODA 지식관리: 교훈 추출, 성공사례, 사례연구, 성과확산, 후속사업 개념서, 역량이전 계획.",
+      "category": "oda-management",
+      "tags": ["oda", "knowledge", "lessons-learned", "case-study", "sustainability"]
+    }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "owner": {
+    "name": "scottnaddle",
+    "url": "https://github.com/scottnaddle"
+  },
+  "plugins": [
+    {
+      "name": "plugin-name-1",
+      "description": "What this plugin does",
+      "path": "plugins/plugin-name-1"
+    },
+    {
+      "name": "plugin-name-2",
+      "description": "What this plugin does",
+      "path": "plugins/plugin-name-2"
+    }
+  ]
+}
