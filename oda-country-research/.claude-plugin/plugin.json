@@ -1,0 +1,8 @@
+{
+  "name": "oda-country-research",
+  "description": "ODA 수원국 연구: 국가별 교육 프로파일, 니즈 평가, 이해관계자 매핑, 정책 환경 분석, 디지털 준비도, 기초선 조사 설계. 카자흐스탄, 베트남, 캄보디아, 스리랑카, 우즈베키스탄, 필리핀 등 국가별 references 포함.",
+  "version": "0.1.0",
+  "author": {
+    "name": "UBION Overseas Business Division"
+  }
+}
