@@ -1,0 +1,8 @@
+{
+  "name": "oda-proposal-writing",
+  "description": "ODA 사업 제안서 작성: 기술제안서, 로지컬 프레임워크, 예산서, 워크플랜, 전문가 배치, TOR, 품질 검토. KOICA, ADB, UNESCO 등 발주처별 양식 대응.",
+  "version": "0.1.0",
+  "author": {
+    "name": "UBION Overseas Business Division"
+  }
+}
