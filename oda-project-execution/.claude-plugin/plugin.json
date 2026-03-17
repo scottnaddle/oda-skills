@@ -1,0 +1,8 @@
+{
+  "name": "oda-project-execution",
+  "description": "ODA 사업 실행 관리: 착수보고, 진도보고, 종료보고, 회의록, 출장보고, 전문가 파견, 조달계획, 리스크 관리. KOICA PMC, ADB QPR 등 발주처 보고 양식 대응.",
+  "version": "0.1.0",
+  "author": {
+    "name": "UBION Overseas Business Division"
+  }
+}
